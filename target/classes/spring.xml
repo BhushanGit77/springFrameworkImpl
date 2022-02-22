@@ -9,5 +9,6 @@
                            http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     
-	<bean id = "vehicle" class = "com.bhushan.DemoSpringFramework.Bike"></bean>
+<!-- 	<bean id = "vehicle" class = "com.bhushan.DemoSpringFramework.Bike"></bean> -->
+    <context:component-scan base-package="com.bhushan.DemoSpringFramework"></context:component-scan>
 </beans>
